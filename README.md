@@ -36,4 +36,3 @@ The lidar detects the box (not in the saved map), the costmap updates, and Nav2 
 - `Action server is inactive. Rejecting the goal`: no initial pose yet, so navigation never activated.
 - `Failed to create plan`: the initial pose was wrong (inside a wall or pillar). Publish the exact spawn pose instead of dragging.
 - Obstacle invisible in RViz: it was spawned outside the walls, so the lidar could not see it.
-README_EOF
